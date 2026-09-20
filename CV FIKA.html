@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Fika Fauziyah Fithriyah</title>
+    <style>
+        /* Gaya atau Tampilan (CSS) */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 30px 20px;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+        .header-text {
+            flex: 1;
+            padding-right: 20px;
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+            font-size: 28px;
+            letter-spacing: 0.5px;
+        }
+        header p {
+            margin: 5px 0;
+            color: #555;
+            font-size: 14px;
+        }
+        /* Style untuk Foto Profil */
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #3498db;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-left: 4px solid #3498db;
+            padding-left: 12px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        p {
+            margin: 0 0 10px 0;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .project-item {
+            margin-bottom: 15px;
+            list-style: none; 
+            padding-left: 0;
+        }
+        .project-title {
+            font-weight: bold;
+            color: #2c3e50;
+            display: list-item;
+            list-style-type: disc; 
+            margin-left: 20px;
+        }
+        .project-desc {
+            margin: 5px 0 10px 20px;
+            color: #555;
+            font-size: 14.5px;
+        }
+
+        /* Optimasi saat dicetak atau di-save ke PDF */
+        @media print {
+            body { background-color: #fff; padding: 0; }
+            .container { box-shadow: none; padding: 0; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Wadah Utama Layout -->
+    <div class="container">
+        
+        <!-- Bagian Header (Nama, Kontak & Foto) -->
+        <header>
+            <div class="header-text">
+                <h1>Fika Fauziyah Fithriyah</h1>
+                <p><strong>Email:</strong> fika.fauziyah12@gmail.com</p>
+                <p><strong>Telepon:</strong> +62 895-2003-3894</p>
+                <p><strong>Alamat:</strong> Kelapa Gading, Jakarta Utara, DKI Jakarta</p>
+            </div>
+            <!-- Ganti 'foto-fika.jpg' dengan nama file foto asli Anda -->
+            <img src="foto-fika.jpeg" alt="Foto Profil Fika" class="profile-img">
+        </header>
+
+        <!-- Bagian Tentang Saya -->
+        <section>
+            <h2>Tentang Saya</h2>
+            <p>Saya merupakan mahasiswa aktif Sistem Informasi di Telkom University Jakarta yang memiliki semangat belajar tinggi, bertanggung jawab, serta mampu bekerja secara individu maupun dalam tim. Memiliki ketertarikan kuat pada bidang teknologi, pengolahan data, serta manajemen dan proses bisnis.</p>
+        </section>
+
+        <!-- Bagian Pendidikan -->
+        <section>
+            <h2>Pendidikan</h2>
+            <ul>
+                <li><strong>Telkom University Jakarta</strong> - S1 Sistem Informasi (2025 - Sekarang)</li>
+                <li><strong>IPK / GPA:</strong> 3.92 / 4.00</li>
+            </ul>
+        </section>
+
+        <!-- Bagian Pengalaman & Proyek -->
+        <section>
+            <h2>Pengalaman & Proyek</h2>
+            <div style="margin-left: -20px;">
+                <div class="project-item">
+                    <span class="project-title">(2024) FLS2N Informatics Scientific Paper</span>
+                    <p class="project-desc">Melakukan penelitian mengenai penggunaan Pembelajaran Mesin (Machine Learning) untuk deteksi dini perundungan siber di media sosial. Melatih algoritma AI untuk mengenali kata-kata kasar, sarkasme, dan ujaran kebencian.</p>
+                </div>
+                <div class="project-item">
+                    <span class="project-title">(2025) Arduino-Powered Smart Dustbin | Personal Project</span>
+                    <p class="project-desc">Merancang dan membangun tempat sampah nirsentuh (touchless) berbasis IoT menggunakan Arduino Uno, Sensor Ultrasonik HC-SR04, dan Motor Servo untuk mendukung higienitas lingkungan.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Keahlian -->
+        <section>
+            <h2>Keahlian</h2>
+            <ul>
+                <li>Web Design</li>
+                <li>Marketing</li>
+                <li>Graphic Design</li>
+            </ul>
+        </section>
+
+        <!-- Bagian Bahasa -->
+        <section>
+            <h2>Bahasa</h2>
+            <ul>
+                <li>Bahasa Indonesia (Native)</li>
+                <li>English</li>
+            </ul>
+        </section>
+
+    </div>
+
+</body>
+</html>
